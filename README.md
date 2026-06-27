@@ -1,22 +1,12 @@
 # Legendaire Charter Pro
 
-Installable iPhone Progressive Web App for WA charter quoting.
+Installable iPhone PWA quote calculator.
 
-## Deploy on GitHub Pages
+## Upload update on iPhone
+1. Unzip this package in Files.
+2. Open your GitHub repo in Safari.
+3. Upload/replace `index.html`, `manifest.json`, `service-worker.js`, the `icons` folder files, and this README.
+4. Commit changes.
+5. Open the GitHub Pages app URL in Safari and refresh.
 
-1. Create a public GitHub repository named `legendaire-charter-pro`.
-2. Upload all files in this folder.
-3. Go to Settings → Pages.
-4. Under "Build and deployment", select:
-   - Source: Deploy from a branch
-   - Branch: main
-   - Folder: /root
-5. Open the Pages URL in Safari on iPhone.
-6. Tap Share → Add to Home Screen.
-
-## Files
-
-- `index.html` — app
-- `manifest.json` — iPhone/PWA install settings
-- `service-worker.js` — offline support
-- `icons/` — app icons
+If the old version appears, close the Home Screen app and reopen it. iOS may cache PWA files briefly.
