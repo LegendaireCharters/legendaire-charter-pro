@@ -59,7 +59,7 @@
       </section>
 
       <section class="panel">
-        <div class="section-heading"><span>Aircraft</span><small id="recommendedText">Recommended: —</small></div>
+        <div class="section-heading"><span>Aircraft</span><small id="aircraftLockText">Manual aircraft selection</small></div>
         <div id="aircraftCards" class="aircraft-cards"></div>
       </section>
 
@@ -73,12 +73,11 @@
           <label>Waiting / overnight<input id="waitingFee" type="number" min="0" value="0" inputmode="decimal" /></label>
           <label>Margin %<input id="margin" type="number" min="0" value="15" inputmode="decimal" /></label>
         </div>
-        <div class="preset-row">
-          <button data-preset="fifo" type="button">FIFO</button>
-          <button data-preset="freight" type="button">Freight</button>
-          <button data-preset="corporate" type="button">Corporate</button>
-          <button data-preset="aog" type="button">AOG</button>
+        <div class="view-toggle" role="group" aria-label="Quote view">
+          <button id="internalViewBtn" class="active" type="button">Internal view</button>
+          <button id="clientViewBtn" type="button">Client view</button>
         </div>
+        <p class="internal-note">Aircraft selection is manual. The app will not recommend or override your selected aircraft.</p>
       </section>
 
       <button id="calculateBtn" class="primary-btn" type="button">Calculate Quote</button>
@@ -103,6 +102,7 @@
           <div><span>Flight time</span><strong id="qTime">—</strong></div>
         </div>
         <div class="breakdown" id="breakdown"></div>
+        <p id="clientViewHint" class="client-view-hint hidden">Client view hides internal margin and cost build-up.</p>
         <p class="quote-note">Indicative estimate only. Subject to aircraft availability, weather, runway suitability, fuel, crew duty limits and operator approval. Confirm final price before committing aircraft or crew.</p>
         <div class="actions no-print">
           <button id="printBtn" type="button">Save / Print PDF</button>
