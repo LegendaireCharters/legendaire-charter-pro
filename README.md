@@ -1,4 +1,5 @@
-# Legendaire Charter Pro — v6.1 Flat Upload Fix
+# Legendaire Charter Pro v6.2
 
-This version is designed for iPhone GitHub upload where folders can be flattened.
-Upload every file in this folder to the root of the GitHub repository.
+Single-file emergency fix for iPhone GitHub uploads.
+
+Upload index.html and service-worker.js to the repository root and replace the old files.
