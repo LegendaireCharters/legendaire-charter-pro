@@ -1,12 +1,12 @@
-# Legendaire Charter Pro
+# Legendaire Charter Pro v3
 
 Installable iPhone PWA quote calculator.
 
-## Upload update on iPhone
-1. Unzip this package in Files.
-2. Open your GitHub repo in Safari.
-3. Upload/replace `index.html`, `manifest.json`, `service-worker.js`, the `icons` folder files, and this README.
-4. Commit changes.
-5. Open the GitHub Pages app URL in Safari and refresh.
+## v3 changes
+- Removed the top "Fast charter quoting" hero box to reduce clutter.
+- Expanded the searchable WA airport / mine strip / station strip database to 190+ entries.
+- Added key mining and station strips including Callion YCAI, Penny YPEN, Youanmi YOUN, Rothsay YROT, Golden Grove YGGE, Glen Station AU-0621, Barnong/Gullewa area, Boolardy, Dalgaranga, Forrestania, Duketon, and many more.
+- Updated favourite route chips for WA mining charter use.
 
-If the old version appears, close the Home Screen app and reopen it. iOS may cache PWA files briefly.
+## Operational note
+The strip database is for indicative quote calculations only. Before quoting operationally or dispatching, verify ERSA/NAIPS/NOTAMs, PPR, runway condition, lighting, fuel, weight/performance, company approvals, insurance/client requirements, and aircraft suitability. Some private ALAs use approximate coordinates where public data is limited.
