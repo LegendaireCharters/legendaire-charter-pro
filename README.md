@@ -1,8 +1,8 @@
-# Legendaire Charter Pro v3
+# Legendaire Charter Pro v4
 
 Installable iPhone PWA quote calculator.
 
-## v3 changes
+## v4 changes
 - Removed the top "Fast charter quoting" hero box to reduce clutter.
 - Expanded the searchable WA airport / mine strip / station strip database to 190+ entries.
 - Added key mining and station strips including Callion YCAI, Penny YPEN, Youanmi YOUN, Rothsay YROT, Golden Grove YGGE, Glen Station AU-0621, Barnong/Gullewa area, Boolardy, Dalgaranga, Forrestania, Duketon, and many more.

@@ -1,7 +1,7 @@
 {
   "name": "Legendaire Charter Pro",
   "short_name": "Legendaire Pro",
-  "description": "Private charter quote calculator for Legendaire-style WA operations.",
+  "description": "Private WA charter quote calculator for Legendaire operations.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#07162b",
